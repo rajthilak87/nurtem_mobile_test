@@ -834,11 +834,11 @@ public class Util {
 	def static String readToastMsg()
 	{
 		Util.deleteFile()
-		String pathToSnapshots = GlobalVariable.projectRootPath + "\\snapshots\\" + 'snap' + '.png';
+		String pathToScreenshots = GlobalVariable.projectRootPath + "\\snapshots\\" + 'snap' + '.png';
 		//com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
-		Mobile.takeScreenshot(pathToSnapshots, FailureHandling.CONTINUE_ON_FAILURE)
-//		String pathToScreenshots = GlobalVariable.projectRootPath + "\\Screenshots\\" + 'snap' + '.png';
-//		Mobile.takeScreenshot(pathToScreenshots, FailureHandling.CONTINUE_ON_FAILURE)
+		Mobile.takeScreenshot(pathToScreenshots, FailureHandling.CONTINUE_ON_FAILURE)
+		//		String pathToScreenshots = GlobalVariable.projectRootPath + "\\Screenshots\\" + 'snap' + '.png';
+		//		Mobile.takeScreenshot(pathToScreenshots, FailureHandling.CONTINUE_ON_FAILURE)
 		String result = null;
 		File imageFile = new File(GlobalVariable.projectRootPath + "\\snapshots\\" + 'snap.png');
 		ITesseract instance = new Tesseract();

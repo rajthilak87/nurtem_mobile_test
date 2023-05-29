@@ -21,14 +21,14 @@ Mobile.startApplication('D:\\nurtem_mobile\\Nurtem-Tutor.apk', true)
 
 Mobile.switchToNative()
 
-Mobile.tap(findTestObject('Object Repository/android.widget.EditText - parvatha79gmail.com'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
-Mobile.setText(findTestObject('Object Repository/android.widget.EditText - parvatha79gmail.com (1)'), 'Ramgopal@gmail.com', 
+Mobile.setText(findTestObject('null'), 'Ramgopal@gmail.com', 
     0)
 
 Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Object Repository/android.widget.Button'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
 Mobile.closeApplication()
 
@@ -36,7 +36,7 @@ Mobile.startApplication('D:\\nurtem_mobile\\Nurtem-Tutor.apk', true)
 
 Mobile.switchToNative()
 
-Mobile.tap(findTestObject('Object Repository/android.widget.EditText -'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
 Mobile.setText(findTestObject('Object Repository/android.widget.EditText - (1)'), '345678rtyu', 0)
 
@@ -46,9 +46,9 @@ Mobile.tap(findTestObject(''), 0)
 
 Mobile.switchToNative()
 
-Mobile.setText(findTestObject('Object Repository/android.widget.EditText - (2)'), '2bgddsfge', 0)
+Mobile.setText(findTestObject('null'), '2bgddsfge', 0)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.Button (1)'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
 Mobile.takeScreenshot('D:\\nurtem_mobile\\Screenshots\\screenshot1 copy.png')
 

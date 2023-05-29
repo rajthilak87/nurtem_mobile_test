@@ -17,16 +17,16 @@ Mobile.startApplication('D:\\nurtem_mobile\\standalone-arm64_v8a_hdpi.apk', true
 
 Mobile.comment('And he navigates the application to Activity form')
 
-Mobile.tap(findTestObject('Application/android.widget.TextView - App'), 10)
+Mobile.tap(findTestObject('null'), 10)
 
-Mobile.tap(findTestObject('Application/App/android.widget.TextView - Activity'), 10)
+Mobile.tap(findTestObject('null'), 10)
 
 Mobile.comment('When he taps on the Custom Dialog button')
 
-Mobile.tap(findTestObject('Application/App/Activity/android.widget.TextView - Custom Dialog'), 10)
+Mobile.tap(findTestObject('null'), 10)
 
 'Get displayed message on the dialog'
-def message = Mobile.getText(findTestObject('Application/App/Activity/Custom Dialog/android.widget.TextView - Message'), 
+def message = Mobile.getText(findTestObject('null'), 
     10)
 
 Mobile.comment('Then the correct dialog message should be displayed')

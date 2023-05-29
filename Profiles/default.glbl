@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'D:\\\\nurtem_mobile_test'</initValue>
+      <initValue>'C://Users//Franssova//git//nurtem_mobile_test'</initValue>
       <name>projectRootPath</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

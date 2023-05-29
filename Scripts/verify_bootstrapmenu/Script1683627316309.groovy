@@ -19,28 +19,28 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('D:\\nurtem_mobile\\Nurtem-Tutor.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/Application/android.widget.EditText - srinivasesaivanan6325gmail.com'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Application/android.widget.EditText - srinivasesaivanan6325gmail.com (1)'), 
+Mobile.setText(findTestObject('null'), 
     'chandramouli.klm@gmail.com', 0)
 
 Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Object Repository/Application/android.widget.EditText -'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Application/android.widget.EditText - (1)'), 'Admin@123', 0)
+Mobile.setText(findTestObject('null'), 'Admin@123', 0)
 
 Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Object Repository/Application/android.widget.Button (1)'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
 Mobile.closeApplication()
 
 Mobile.startApplication('D:\\nurtem_mobile\\Nurtem-Tutor.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/Application/android.widget.EditText - chandramouli.klmgmail.com'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Application/android.widget.EditText - chandramouli.klmgmail.com (1)'), 
+Mobile.setText(findTestObject('null'), 
     'basicmasterapps@gmail.com', 0)
 
 Mobile.hideKeyboard()
@@ -63,7 +63,7 @@ Mobile.startApplication('D:\\nurtem_mobile\\Nurtem-Tutor.apk', true)
 
 Mobile.switchToNative()
 
-Mobile.tap(findTestObject('Object Repository/Application/android.widget.Button (2)'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
 Mobile.startApplication('D:\\nurtem_mobile\\Nurtem-Tutor.apk', true)
 
@@ -79,9 +79,9 @@ Mobile.switchToNative()
 
 Mobile.tap(findTestObject(''), 0)
 
-Mobile.tap(findTestObject('Object Repository/Application/android.view.View'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/Application/android.widget.Button (3)'), 0)
+Mobile.verifyElementExist(findTestObject('null'), 0)
 
 Mobile.closeApplication()
 
